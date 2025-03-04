@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>(𝓓𝓮𝓼)𝓔𝓶𝓹𝓻𝓮𝓰𝓸𝓼</title>
+
+  <style> <!--Desing básico-->
+   body{
+    background-color:#FFFFFF
+   }
+   header  /*fiz algumas alterações para tirar a borda branca mais não deu mt certo ass:nathan*/
+   {
+    background-color: rgb(155, 250, 82);
+    padding: 10px;
+    text-align: center;
+    color:rgb(8, 0, 0);
+    margin-left:0px; 
+    margin-top:0px;
+    margin-right: 0px ;
+   }
+
+   a{
+    float:right;
+   }
+
+   h1{
+    font-family: 'Courier New', Courier, monospace;
+   }
+
+   h2{
+    font-family: 'Courier New', Courier, monospace;
+   }
+
+   p{
+    font-family: 'Courier New', Courier, monospace;
+   }
+
+   button{
+    font-family: 'Courier New', Courier, monospace;
+   }
+
+   h3{
+    float:left;
+    font-family: 'Courier New', Courier, monospace;
+   }
+
+
+
+    .botoesdotopo /* usei o esse css para deixar os botoes login e curriculo anexo na perte de cima ass:nathan */
+    { 
+    position: right;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 10;
+    }
+   
+    .botoesdotopo button   /*  usei esse para fazer o button ter um tamanho menor ou maior e a distancia de um botão pro outro ass:nathan */
+    {
+    margin: 0 10px;
+    padding: 10px 20px;
+    }
+    
+    .atençâo    /*tentei usar a flexbox e não deu mt certo ent usei o center na div mais tentei mt para fazer essa parte funcionar ent tentem arrumar se nn der ok ass:nathan*/
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;    
+    }
+    .cursostamanho /*esses de curso usei cada um para fazer as imgs ou botoes dos cursos ficarem organizados no meio mais nn ficaram 100% vamos ver na proxima vlw ass:nathan*/
+    {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 90%;
+    max-width: 1200px; 
+    /*centralizei os itens, usei aquele site do sapinho pra lembrar ass nat*/
+    display: flex;
+  justify-content: center;
+  align-items: center;
+   }
+    .cursos
+    {
+      text-align: center;
+      max-width: 180px;
+    }
+   .cursos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    justify-content: space-around;
+   }
+  .cursos h2 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+
+  
+  </style> <!--Desing básico-->
+</head>
+<body>
+  <header> <!--Só mudei a posição do emoj e aoenvés de "enviar" coloquei "pesquisa"-->
+    <center><form> <!--ok aqui eu coloquei a barra de pesquisa dentro do header para ficar em cima do titulo para não ficar no meio da pagina sem contar os botoes tambem ass:nathan-->
+  <p><input type="text">
+  <button type="submit">Pesquisar🔍</button></p>
+</form><center/>
+    <h1>(𝓓𝓮𝓼)𝓔𝓶𝓹𝓻𝓮𝓰𝓸𝓼 </h1>
+   <div class="botoesdotopo">
+<button>login</button>
+<p>&#128188;<button>currículo anexo</button></p>
+   </div>
+
+</header>
+  <div class="atenção"> <!--usei essa class para por o h1 no centro mais nn sei oque acontece que sempre ta tendo que usar aquele center de html e nn css mais vou ver oque faço ass:nathan-->
+   <center> <h1>Sua busca por emprego acabou!!</h1>  </center>
+  </div>
+  <h3>Nosso site vai lhe ajudar a sair de sua incansavél busca por uma renda fixa chegou ao fim, temos todas as aréas que você queira atuar, sendo estagiário ou recém-formado, poderá enviar seus currículos e procurar sua empresa de preferência.</h3>
+  
+
+  <center><h1>Cursos que você possa gostar</h1></center>
+ 
+  <center>
+<div class="cursostamanho">
+<div class="cursos">
+  <div class="cursostamanho"> <!--usei esssas divs para os cursos ficarem centralizados e para que as palavras ficassem em baixo certinho dos seus respectivos cursos ass:nathan-->
+
+  <div class="cursos">
+   <a href="https://youtu.be/1o6c4itFAhQ?si=F92wZQyU3eS2tmZj">     <img src="https://i.ibb.co/TMrLT5qq/images-q-tbn-ANd9-Gc-Sa6-DABja-Xz-Su-JTK6ez-RNuy-Dm-Nf9b3-AUtsh2w-s.png"> </a>
+   <h2>Desing</h2>
+  </div>
+
+  <div class="cursos">
+   <a href="https://youtu.be/V7z5bC4GOQI?si=VXUMBy9KFVH--UJA">   <img src="https://i.ibb.co/7xTXxWCm/Logo-Administra-o-pt.jpg">  </a>
+   <h2>administração</h2>
+  </div>
+  
+  <div class="cursos">
+   <a href="https://youtu.be/A1BaZr82XJI?si=WxgM2xqubcA8QyRr"> <img src="https://i.ibb.co/GQFtfSSp/images-q-tbn-ANd9-Gc-RA9-Sh-O601bn-In-Joi-LGPm-Fn-Igk7-Xsclsr5m-Q-s.png"></a>
+   <h2>programador</h2>
+  </div>
+ 
+  <div class="cursos">
+   <a href="https://youtu.be/Wi1UZMQDl3I?si=cgzGQ1BxH5_PSMm4"><img src="https://i.ibb.co/LXN04WSs/melhores-editores-video-gratuitos-BR-Capterra-Header.png"></a>
+   <h2>Edição de video</h2>
+  </div>
+
+  <div class="cursos">
+   <a href="https://youtu.be/ice_xL6x4Qg?si=T4EZu-ijlHWrEh7G"><img src="https://i.ibb.co/wZQz8Wbx/images-q-tbn-ANd9-Gc-RTQY0-KS5-IJkg-KPXk-Ve-YU50-Xz-CPOt20-LA1-BGA-s.jpg"></a>
+   <h2>Marketing digital</h2>
+  </div>
+
+  <div >
+      <button id="irSegundaPagina">ir para a segunda pagina</button>
+  </div>
+</center>
+<script>
+      document.getElementById('irSegundaPagina').addEventListener('click', function () {
+            window.location.href = 'index.html';
+        });
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 16px;
+}
+
+/*classes top center left right comanie * bottom feitas por murilo:)*/
+.top {
+    background-color: #D2FCB1;
+    padding: 10px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.left {
+    align-items: start;
+    margin: 10px;
+}
+
+.right {
+    align-items: end;
+    margin: 10px;
+}
+
+.companie {
+    background-color: #D2FCB1;
+    width: 200px;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bottom {
+    background-color: #333;
+    color: white; 
+    text-align: center; 
+    padding: 15px; 
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
