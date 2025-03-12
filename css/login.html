@@ -1,0 +1,66 @@
+<html>
+    <style>
+    header  
+   {
+    background-color: rgb(9, 174, 250);
+    padding: 10px;
+    text-align: center;
+    color:rgb(8, 0, 0);
+    margin-left:30%; 
+    margin-top:20%;
+    margin-right: 30% ;
+    margin-bottom: 20%;
+    border-radius: 10%;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   animation: bgcolor infinite 30s;
+   
+}
+@keyframes bgcolor{
+0%
+{ 
+    background: #00ffff; ;
+}
+
+20%
+{ 
+    background:#3aa8a8 ;
+}
+40%
+{ 
+    background: #267070;
+}
+60%
+{ 
+    background: #185d5d;
+}
+80%
+{ 
+    background: #093838;
+}
+100%
+{ 
+    background: #012323;
+}
+}
+    </style>
+     
+     <body>
+<header>
+<h1>Faça seu login</h1>
+<input type="text" placeholder="nome">
+<br><br>
+<input type="password" placeholder="senha">
+<br><br>
+<button id="logar">logar</button>
+</header>
+<script>
+document.getElementById('logar').addEventListener('click', function () {
+    window.location.href = 'initial.html';
+});
+</script>
+     </body>
+</html>
