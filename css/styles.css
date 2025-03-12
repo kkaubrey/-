@@ -10,9 +10,9 @@ ul {
     padding: 16px;
 }
 
-/*classes top center left right comanie * bottom feitas por murilo:)*/
+
 .top {
-    background-color: #D2FCB1;
+    background-color: #69f300;
     padding: 10px;
     text-align: center;
 }
@@ -34,7 +34,7 @@ ul {
 }
 
 .companie {
-    background-color: #D2FCB1;
+    background-color: #69f300;
     width: 200px;
     height: 200px;
     color: white;
